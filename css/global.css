@@ -29,11 +29,17 @@ p {
   font-size: 22px;
   line-height: 31px;
 }
+input, input:hover, input:focus, input:active, button, button:hover, button:focus, button:active {
+  outline: none;
+}
 button {
   padding: 0;
 }
 a, a:hover, a:active {
   text-decoration: none;
+}
+a, button, input {
+  transition: all 0.5s ease;
 }
 .btn:hover {
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
@@ -55,6 +61,14 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   font-size: 58px;
   line-height: 68px;
+}
+h3 {
+  font-size: 37px;
+  line-height: 43px;
+}
+h4 {
+  font-size: 23px;
+  line-height: 33px;
 }
 .link {
   font-size: 17px;
